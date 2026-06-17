@@ -53,3 +53,5 @@ echo "GROQ_API_KEY=gsk_your_key_here" > .env
 python app.py
 
 The app will start a local Gradio server (typically at a temporary public link to the console if http://127.0.0.1:7860 ) and print a shareable share=True is set in demo.launch().
+
+**Live Demo link** : https://huggingface.co/spaces/somesh05/medical-chatbot-assistant
