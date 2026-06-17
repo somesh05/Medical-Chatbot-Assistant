@@ -1,1 +1,43 @@
-# Medical-Chatbot-Assistant
+**1. Project Title**- medical-chatbot-assistant
+   
+**2. Description:** An AI-powered assistant that lets healthcare professionals upload clinical documents and ask plain-English questions, returning answers grounded strictly in the source material with page-level citations
+
+**3. Domain:**
+**Industry**: Healthcare / Medical Technology 
+**Problem solved:** Clinicians and healthcare staff routinely need to search long documents — discharge summaries, NICE guidelines, lab reports, drug interaction sheets — for specific facts under time pressure. Manual searching is slow and error-prone, while free-form AI chatbots risk hallucinating medical facts. This tool retrieves the exact relevant passage from the uploaded document before generating an answer, so every response is traceable to its source.
+
+**4. Features**
+-Upload one or more clinical PDFs (discharge summaries, guidelines, lab reports) directly through the app
+-Ask natural-language clinical questions and receive answers grounded only in the uploaded document — no fabricated facts
+-Every answer includes an expandable Sources panel showing the exact page number and passage used
+-Built-in safety disclaimer reinforcing the tool's role as a research aid, not a clinical decision-maker
+-Fast semantic retrieval over document chunks using FAISS vector search, so answers return in seconds even on long PDFs
+
+**5. Tech Stack**
+Layer                                           Technology
+LLM                                   Groq API — Llama 3.1 70B (free tier)
+Orchestration                         LangChain (RetrievalQA pipeline)
+Vector search                                   FAISS (CPU)
+Embeddings                            sentence-transformers — all-MiniLM-L6-v2
+PDF parsing                                       PyMuPDF
+Interface                                          Gradio
+Secrets management                              python-dotenv
+
+**6. How to Run Locally**
+# 1. Clone the repository
+git clone https://github.com/yourusername/medical-chatbot-assistant.git
+cd medical-chatbot-assistant
+# 2. Create and activate a virtual environment
+python -m venv medenv
+source medenv/bin/activate        # Windows: medenv\Scripts\activate
+# 3. Install dependencies
+pip install langchain langchain-community faiss-cpu PyMuPDF \
+            sentence-transformers groq langchain-groq gradio python-dotenv
+
+# 3. Add your API key
+echo "GROQ_API_KEY=gsk_your_key_here" > .env
+
+# 5. Launch the app
+python app.py
+
+The app will start a local Gradio server (typically at a temporary public link to the console if http://127.0.0.1:7860 ) and print a shareable share=True is set in demo.launch().
