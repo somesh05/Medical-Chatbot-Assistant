@@ -15,7 +15,7 @@
 
 **5. Tech Stack**
 Layer                                           Technology
-LLM                                   Groq API — Llama 3.1 70B (free tier)
+LLM                                   Groq API — llama-3.3-70b-versatile
 Orchestration                         LangChain (RetrievalQA pipeline)
 Vector search                                   FAISS (CPU)
 Embeddings                            sentence-transformers — all-MiniLM-L6-v2
