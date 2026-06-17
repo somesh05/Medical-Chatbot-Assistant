@@ -3,8 +3,8 @@
 **2. Description:** An AI-powered assistant that lets healthcare professionals upload clinical documents and ask plain-English questions, returning answers grounded strictly in the source material with page-level citations
 
 **3. Domain:**
-**Industry**: Healthcare / Medical Technology 
-**Problem solved:** Clinicians and healthcare staff routinely need to search long documents — discharge summaries, NICE guidelines, lab reports, drug interaction sheets — for specific facts under time pressure. Manual searching is slow and error-prone, while free-form AI chatbots risk hallucinating medical facts. This tool retrieves the exact relevant passage from the uploaded document before generating an answer, so every response is traceable to its source. (**relevant to NHS Digital, BUPA, Babylon Health, Philips Healthcare, and other healthtech startups**)
+**Industry**: Healthcare / Medical Technology (**relevant to NHS Digital, BUPA, Babylon Health, Philips Healthcare, and other healthtech startups**)
+**Problem solved:** Clinicians and healthcare staff routinely need to search long documents — discharge summaries, NICE guidelines, lab reports, drug interaction sheets — for specific facts under time pressure. Manual searching is slow and error-prone, while free-form AI chatbots risk hallucinating medical facts. This tool retrieves the exact relevant passage from the uploaded document before generating an answer, so every response is traceable to its source. 
 
 **4. Features**
 -Upload one or more clinical PDFs (discharge summaries, guidelines, lab reports) directly through the app
