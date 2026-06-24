@@ -1,7 +1,8 @@
 # Medical-chatbot-assistant
 
------
+<img width="1484" height="830" alt="medical_chatbot_assistant" src="https://github.com/user-attachments/assets/805caa84-46b8-49a1-9de7-110867971a74" />
 
+-----
    
 **Description** 
 
@@ -25,14 +26,15 @@ Clinicians and healthcare staff routinely need to search long documents — disc
 
 **Tech Stack**
 
-Layer                                           Technology
-LLM                                   Groq API — llama-3.3-70b-versatile
-Orchestration                         LangChain (RetrievalQA pipeline)
-Vector search                                   FAISS (CPU)
-Embeddings                            sentence-transformers — all-MiniLM-L6-v2
-PDF parsing                                       PyMuPDF
-Interface                                          Gradio
-Secrets management                              python-dotenv
+
+| Layer |                |Technology |
+| LLM |    Groq API — llama-3.3-70b-versatile |
+| Orchestration |  LangChain (RetrievalQA pipeline) |
+| Vector search |  FAISS (CPU) |
+| Embeddings  |  sentence-transformers — all-MiniLM-L6-v2 |
+| PDF parsing |  PyMuPDF |
+| Interface   |   Gradio |
+| Secrets management |  python-dotenv |
 
 **How to Run Locally**
 
