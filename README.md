@@ -37,7 +37,7 @@ Secrets management                              python-dotenv
 **How to Run Locally**
 
 #### 1. Clone the repository
-git clone https://github.com/yourusername/medical-chatbot-assistant.git
+git clone https://github.com/somesh05/Medical-Chatbot-Assistant.git
 cd medical-chatbot-assistant
 ####  2. Create and activate a virtual environment
 python -m venv medenv
