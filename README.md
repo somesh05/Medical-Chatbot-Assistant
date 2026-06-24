@@ -26,15 +26,13 @@ Clinicians and healthcare staff routinely need to search long documents — disc
 
 **Tech Stack**
 
-
-| Layer |                |Technology |
-| LLM |    Groq API — llama-3.3-70b-versatile |
-| Orchestration |  LangChain (RetrievalQA pipeline) |
-| Vector search |  FAISS (CPU) |
-| Embeddings  |  sentence-transformers — all-MiniLM-L6-v2 |
-| PDF parsing |  PyMuPDF |
-| Interface   |   Gradio |
-| Secrets management |  python-dotenv |
+| LLM | Groq API — llama-3.3-70b-versatile |
+| Orchestration | LangChain (RetrievalQA pipeline) |
+| Vector search | FAISS (CPU) |
+| Embeddings | sentence-transformers — all-MiniLM-L6-v2 |
+| PDF parsing | PyMuPDF |
+| Interface |Gradio |
+| Secrets management |python-dotenv |
 
 **How to Run Locally**
 
